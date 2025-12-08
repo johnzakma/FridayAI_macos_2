@@ -1,0 +1,21 @@
+{
+  "name": "auto-commit-github",
+  "version": "1.0.0",
+  "description": "Standalone automatic git commit and push to GitHub on file changes",
+  "main": "auto-commit.js",
+  "scripts": {
+    "start": "node auto-commit.js",
+    "setup": "node setup-github-token.js"
+  },
+  "keywords": [
+    "git",
+    "auto-commit",
+    "github",
+    "file-watcher"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^4.0.3"
+  }
+}
